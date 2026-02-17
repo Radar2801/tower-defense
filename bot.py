@@ -7,5 +7,8 @@ while msg != "0":
         print("Привет!")
     elif msg == "Как дела?":
         print("Всё хорошо!")
-    msg =input("(0 - выйти) -->") 
+    elif msg == "Сколько софiko":
+        print("7 лiт")
+
+    msg =input("(0 - выйти) -->")
 print("Пока!")

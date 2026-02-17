@@ -3,5 +3,7 @@ msg =input("(0 - выйти) -->")
 while msg != "0":
     if msg == "":
         print("Вы ввели пустое сообщение")
+    elif msg == "привет":
+        print("Привет!")
     msg =input("(0 - выйти) -->") 
 print("Пока!")
